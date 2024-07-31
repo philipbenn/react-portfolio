@@ -21,7 +21,6 @@ Check out the live demo [here](https://codewithphilip.com/).
 
 ## Tech Stack
 - React.js
-- HTML
 - CSS
 
 ## Contact
