@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url(../../DM_Sans/DMSans-VariableFont_opsz\,wght.ttf);
+  }
+  
+body {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+

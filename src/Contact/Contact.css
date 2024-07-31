@@ -1,0 +1,164 @@
+.contact {
+  padding: 2rem;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.contact h1 {
+  color: #282c34;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  color: #282c34;
+  font-size: 1rem;
+  margin: 1.5rem 0;
+}
+
+.contact a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #127894;
+  transition: color 0.3s ease;
+}
+
+.contact a:hover {
+  color: #005582;
+}
+
+.contact-container {
+  width: auto;
+  min-width: 500px;
+  max-width: 1000px;
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: height 0.3s ease, width 0.3s ease;
+}
+
+.form-header textarea {
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 300px;
+  min-height: 100px;
+  box-sizing: border-box;
+}
+
+.form-header {
+  margin-bottom: 1rem;
+}
+
+#contact-text {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.form-header label {
+  display: block;
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.form-header input,
+.form-header textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-header input:focus,
+.form-header textarea:focus {
+  border-color: #127894;
+  outline: none;
+}
+
+.submit-button {
+  display: inline-block;
+  background-color: #127894;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #10667e;
+}
+
+.buttom-contact-container {
+  margin-top: 2rem;
+}
+
+.buttom-contact-container h2 {
+  font-size: 1.5rem;
+  color: #282c34;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .contact-container {
+    min-width: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+  .contact-container {
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    width: 90%;
+    min-width: 200px;
+  }
+
+  .contact h1 {
+    font-size: 2rem;
+  }
+
+  .contact p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-container {
+    padding: 1rem;
+  }
+
+  .contact h1 {
+    font-size: 1.5rem;
+  }
+
+  .contact p {
+    font-size: 0.875rem;
+  }
+
+  .submit-button {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .buttom-contact-container h2 {
+    font-size: 1.25rem;
+  }
+
+  .buttom-contact-container p {
+    font-size: 0.875rem;
+  }
+}
