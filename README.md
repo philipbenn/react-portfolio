@@ -25,5 +25,5 @@ Check out the live demo [here](https://codewithphilip.com/).
 - CSS
 
 ## Contact
-- Email: philip@des-design.com
-- LinkedIn: https://www.linkedin.com/in/philip-sch%C3%B8nning-0970041b7/
+- Email: [philip@des-design.com](mailto:philip@des-design.com)
+- LinkedIn: [Philip Schønning](https://www.linkedin.com/in/philip-sch%C3%B8nning-0970041b7/)
