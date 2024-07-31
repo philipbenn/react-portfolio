@@ -4,9 +4,9 @@ Welcome to my React Portfolio project! This project showcases my skills, project
 
 ## Table of Contents
 - [Demo](#demo)
+- [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Contact](#contact)
-- [Features](#features)
 
 ## Demo
 
@@ -25,5 +25,5 @@ Check out the live demo [here](https://codewithphilip.com/).
 - CSS
 
 ## Contact
-Email: philip@des-design.com
-LinkedIn: https://www.linkedin.com/in/philip-sch%C3%B8nning-0970041b7/
+- Email: philip@des-design.com
+- LinkedIn: https://www.linkedin.com/in/philip-sch%C3%B8nning-0970041b7/
