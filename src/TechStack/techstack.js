@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './techstack.css';
 import js from '../Images/icons/javascript.svg';
 import java from '../Images/icons/java.svg';
@@ -33,16 +33,6 @@ const techStack = [
 ];
 
 const TechStack = () => {
-  useEffect(() => {
-    const wrapper = document.querySelector('.tech-stack-wrapper');
-    const items = document.querySelectorAll('.tech-item');
-    const totalWidth = Array.from(items).reduce((acc, item) => acc + item.offsetWidth, 0);
-    const containerWidth = wrapper.offsetWidth;
-    const animationDuration = (totalWidth / containerWidth) * 10;
-    
-    wrapper.style.animationDuration = `${animationDuration}s`;
-  }, []);
-
   return (
     <div className="techstack">
       <h1>My Tech Stack</h1>
