@@ -2,14 +2,13 @@ import React from 'react';
 import './about.css';
 import profilePicture from '../Images/phil2.jpg';
 
-
 function About() {
   return (
-    <section className="about-me" id='about'>
-      <div className="profile-pic">
+    <section className="about-me" id='about' data-aos="fade-up">
+      <div className="profile-pic" data-aos="fade-right">
         <img src={profilePicture} alt="Profile" />
       </div>
-      <div className="about-text">
+      <div className="about-text" data-aos="fade-left">
         <h2>About Me</h2>
         <p>
           Hi, I'm Philip! I am currently studying at Copenhagen School of Design and Technology where I am pursuing a degree in Computer Science.

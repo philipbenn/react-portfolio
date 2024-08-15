@@ -19,10 +19,10 @@ const techStack = [
   { name: 'JavaScript', imgSrc: js, alt: 'JavaScript' },
   { name: 'Java', imgSrc: java, alt: 'Java' },
   { name: 'Azure', imgSrc: azure, alt: 'Azure' },
-  { name: 'Bootstrap', imgSrc: bootstrap, alt: 'Bootstrap' },  
+  { name: 'Bootstrap', imgSrc: bootstrap, alt: 'Bootstrap' },
   { name: 'Firebase', imgSrc: firebase, alt: 'Firebase' },
-  { name: 'Github', imgSrc: github, alt: 'Github' }, 
-  { name: 'MySQL', imgSrc: mysql, alt: 'MySQL' }, 
+  { name: 'Github', imgSrc: github, alt: 'Github' },
+  { name: 'MySQL', imgSrc: mysql, alt: 'MySQL' },
   { name: 'React', imgSrc: react, alt: 'React' },
   { name: 'Spring', imgSrc: spring, alt: 'Spring' },
   { name: 'TypeScript', imgSrc: typescript, alt: 'TypeScript' },
@@ -34,18 +34,13 @@ const techStack = [
 
 const TechStack = () => {
   return (
-    <div className="techstack">
-      <h1>My Tech Stack</h1>
-      <p>Here are some of the technologies I've worked with:</p>
-      <div className="tech-stack-container">
+    <div className="techstack" data-aos="fade-up">
+      <h1 data-aos="fade-up">My Tech Stack</h1>
+      <p data-aos="fade-up">Here are some of the technologies I've worked with:</p>
+      <div className="tech-stack-container" data-aos="fade-up">
         <div className="tech-stack-wrapper">
           {techStack.map((tech, index) => (
-            <div key={index} className="tech-item">
-              <img src={tech.imgSrc} alt={tech.alt} className="tech-icon" />
-            </div>
-          ))}
-          {techStack.map((tech, index) => (
-            <div key={index + techStack.length} className="tech-item">
+            <div key={index} className="tech-item" data-aos="fade-up">
               <img src={tech.imgSrc} alt={tech.alt} className="tech-icon" />
             </div>
           ))}
