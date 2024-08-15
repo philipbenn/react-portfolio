@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ee7abd41.css",
-    "main.js": "/static/js/main.54a087b1.js",
+    "main.js": "/static/js/main.1426d146.js",
     "static/js/453.bb257cf5.chunk.js": "/static/js/453.bb257cf5.chunk.js",
     "static/media/biomovies.png": "/static/media/biomovies.2a85c6cf3ade534b1083.png",
     "static/media/blomlogin.png": "/static/media/blomlogin.f075b8b80a261cb68882.png",
@@ -34,11 +34,11 @@
     "static/media/css.svg": "/static/media/css.bbf0b60508efac0bda4fbb5593f4337f.svg",
     "static/media/react.svg": "/static/media/react.4004fe7b37d40831ce3eb207a6316bd8.svg",
     "main.ee7abd41.css.map": "/static/css/main.ee7abd41.css.map",
-    "main.54a087b1.js.map": "/static/js/main.54a087b1.js.map",
+    "main.1426d146.js.map": "/static/js/main.1426d146.js.map",
     "453.bb257cf5.chunk.js.map": "/static/js/453.bb257cf5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee7abd41.css",
-    "static/js/main.54a087b1.js"
+    "static/js/main.1426d146.js"
   ]
 }
