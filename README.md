@@ -5,9 +5,8 @@
 - [Contact](#contact)
 
 ## Demo
+[HERE](https://codewithphilip.com/).
 
-[here](https://codewithphilip.com/).
-
-##TODO
+## TODO
 - Add internship projects
 - Add internship technologies 
