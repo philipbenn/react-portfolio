@@ -5,7 +5,7 @@
 - [Contact](#contact)
 
 ## Demo
-[HERE](https://codewithphilip.com/).
+[HERE](https://codewithphilip.com/)
 
 ## TODO
 - Add internship projects
