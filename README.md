@@ -3,4 +3,3 @@
 
 ## TODO
 - Add internship projects
-- Add internship technologies 

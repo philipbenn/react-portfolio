@@ -15,6 +15,8 @@ import docker from '../Images/icons/docker.svg';
 import html from '../Images/icons/html.svg';
 import css from '../Images/icons/css.svg';
 import tailwind from '../Images/icons/tailwind.svg';
+import spfx from '../Images/icons/spfx.png';
+import devops from '../Images/icons/devops.png';
 
 const techStack = [
   { name: 'JavaScript', imgSrc: js, alt: 'JavaScript' },
@@ -31,6 +33,8 @@ const techStack = [
   { name: 'HTML', imgSrc: html, alt: 'HTML' },
   { name: 'CSS', imgSrc: css, alt: 'CSS' },
   { name: 'Tailwind', imgSrc: tailwind, alt: 'Tailwind' },
+  { name: 'SPFx', imgSrc: spfx, alt: 'SPFx' },
+  { name: 'DevOps', imgSrc: devops, alt: 'DevOps' },
 ];
 
 const TechStack = () => {
